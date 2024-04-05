@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #2E80CE;
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -30,7 +34,7 @@ a {
     text-align: center;
     min-width: 205px;
     border-radius: 999px;
-    background: #2E80CE;
+    background: var(--primary-color);
     color: #FFF;
     font-size: 1.8rem;
     line-height: 60px; /* 166.667% */
@@ -77,7 +81,7 @@ a {
 }
 
 .control__btn:hover {
-    background: #2E80CE;
+    background: var(--primary-color);
     color: #fff;
     cursor: pointer;
 }
@@ -260,7 +264,7 @@ a {
 
 .service-item:hover .service-item__icon {
     color: #fff;
-    background: #2E80CE;
+    background: var(--primary-color);
 }
 
 .service-item__icon {
@@ -323,11 +327,11 @@ a {
 
 .work-item:hover {
     transform: translateY(-16px);
-    border-color: #2E80CE;
+    border-color: var(--primary-color);
 }
 
 .work-item:hover .work-item__link {
-    color: #2E80CE;
+    color: var(--primary-color);
     font-weight: 400;
 }
 
@@ -475,7 +479,7 @@ a {
     align-items: center;
     padding: 0 70px;
     border-radius: 4px;
-    background: #2E80CE;
+    background: var(--primary-color);
 }
 
 .install__img {
@@ -557,7 +561,7 @@ a {
 }
 
 .news-item:hover .news-item__link {
-    color: #2E80CE;
+    color: var(--primary-color);
 }
 
 .news-item__thumb {
@@ -628,7 +632,7 @@ a {
     display: inline-block;
     width: 136px;
     height: 2px;
-    background: #2E80CE;
+    background: var(--primary-color);
 }
 
 .appointment__content .section-desc {
@@ -703,12 +707,12 @@ a {
     height: 32px;
     border-radius: 50%;
     background: #fff;
-    color: #2E80CE;
+    color: var(--primary-color);
     transition: .3s;
 }
 
 .footer-item__social-icon:hover {
-    background: #2E80CE;
+    background: var(--primary-color);
     color: #fff;
     cursor: pointer;
 }
@@ -747,7 +751,7 @@ a {
     height: 46px;
     border: none;
     border-radius: 4px;
-    background: #2E80CE;
+    background: var(--primary-color);
     color: #fff;
     font-size: 1.4rem;
     font-weight: 600;
